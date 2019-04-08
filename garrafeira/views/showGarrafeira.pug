@@ -1,0 +1,19 @@
+extends layout
+
+block content
+  script(src="/javascripts/jquery-3.3.1.min.js")
+  script(src="https://d3js.org/d3.v5.min.js")
+  script(src="https://unpkg.com/viz.js@1.8.0/viz.js" type="javascript/worker")
+  script(src="https://unpkg.com/d3-graphviz@1.4.0/build/d3-graphviz.min.js")
+  div(class="w3-container")
+    header(class="w3-container w3-center w3-amber")
+        h1 Navegador gráfico sobre a ontologia da Garrafeira Virtual
+  div(class="w3-container")
+    div(class="w3-container w3-border w3-pale-yellow")
+        header(class="w3-container")
+            h4 Garrafeira
+    div(class="w3-border" id="graph")
+      script!= renderingCode 
+    div(class="w3-container w3-amber")
+      footer(class="w3-container w3-amber")
+          address Gerado por Alfredo Gomes :: PRC2018 :: Junho

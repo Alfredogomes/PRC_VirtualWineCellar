@@ -1,0 +1,1271 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#"
+     xml:base="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:vinhos="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#produzEmRegiao -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#produzEmRegiao">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#temProdutor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#produzVinho -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#produzVinho">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#éProduzidoPor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#provemDe -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#provemDe">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#temVinho"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#temProdutor -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#temProdutor"/>
+    
+
+
+    <!-- http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#temVinho -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#temVinho"/>
+    
+
+
+    <!-- http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#éProduzidoPor -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#éProduzidoPor"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#capacidade -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#capacidade"/>
+    
+
+
+    <!-- http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#colheita -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#colheita"/>
+    
+
+
+    <!-- http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#descricaoProdutor -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#descricaoProdutor"/>
+    
+
+
+    <!-- http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#descricaoRegiao -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#descricaoRegiao"/>
+    
+
+
+    <!-- http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#descricaoTipo -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#descricaoTipo">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#tipoVinho"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#descricaoVinho -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#descricaoVinho"/>
+    
+
+
+    <!-- http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#localizacaoProdutor -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#localizacaoProdutor"/>
+    
+
+
+    <!-- http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#nomeProdutor -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#nomeProdutor"/>
+    
+
+
+    <!-- http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#nomeRegiao -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#nomeRegiao"/>
+    
+
+
+    <!-- http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#nomeVinho -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#nomeVinho"/>
+    
+
+
+    <!-- http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#temperatura -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#temperatura"/>
+    
+
+
+    <!-- http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#teorAlcoolico -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#teorAlcoolico"/>
+    
+
+
+    <!-- http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#tipoVinho -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#tipoVinho"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#Branco -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#Branco">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#Vinho"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#Colheita_Tardia -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#Colheita_Tardia">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#Vinho"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#Espumante -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#Espumante">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#Vinho"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#Generoso -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#Generoso">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#Vinho"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#Produtor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#Produtor"/>
+    
+
+
+    <!-- http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#Regiao -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#Regiao"/>
+    
+
+
+    <!-- http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#Rosé -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#Rosé">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#Vinho"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#Tinto -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#Tinto">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#Vinho"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#Verde -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#Verde">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#Vinho"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#Vinho -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#Vinho"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#produtor01 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#produtor01">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#Produtor"/>
+        <produzEmRegiao rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#rvDouro"/>
+        <produzVinho rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#vinho01"/>
+        <produzVinho rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#vinho02"/>
+        <produzVinho rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#vinho03"/>
+        <produzVinho rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#vinho04"/>
+        <produzVinho rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#vinho05"/>
+        <produzVinho rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#vinho06"/>
+        <descricaoProdutor>Produtor dos famosos vinhos Piano.</descricaoProdutor>
+        <localizacaoProdutor>Alijó</localizacaoProdutor>
+        <nomeProdutor>Carlos Alonso</nomeProdutor>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#produtor02 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#produtor02">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#Produtor"/>
+        <produzEmRegiao rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#rvDouro"/>
+        <produzVinho rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#vinho07"/>
+        <produzVinho rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#vinho08"/>
+        <descricaoProdutor>A Barão de Vilar - Vinhos, S.A. foi constituída 
+em Janeiro de 1996, a partir de um stock de 
+vinhos adquirido por Fernando Luiz van Zeller,
+ cedido aos seus dois filhos Fernando e Álvaro.</descricaoProdutor>
+        <localizacaoProdutor>Santa Comba da Vilariça</localizacaoProdutor>
+        <nomeProdutor>Barão de Vilar</nomeProdutor>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#produtor03 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#produtor03">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#Produtor"/>
+        <produzEmRegiao rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#rvMinho"/>
+        <produzVinho rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#vinho09"/>
+        <produzVinho rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#vinho10"/>
+        <produzVinho rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#vinho11"/>
+        <produzVinho rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#vinho12"/>
+        <descricaoProdutor>Soalheiro é a primeira marca de 
+Alvarinho em Malgaço e um dos primeiros 
+produtores de Alvarinho.</descricaoProdutor>
+        <localizacaoProdutor>Melgaço</localizacaoProdutor>
+        <nomeProdutor>Soalheiro</nomeProdutor>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#produtor04 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#produtor04">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#Produtor"/>
+        <produzEmRegiao rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#rvAlentejo"/>
+        <produzEmRegiao rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#rvBairrada"/>
+        <produzEmRegiao rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#rvDao"/>
+        <produzEmRegiao rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#rvDouro"/>
+        <produzEmRegiao rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#rvMinho"/>
+        <produzVinho rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#vinho13"/>
+        <produzVinho rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#vinho14"/>
+        <produzVinho rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#vinho15"/>
+        <produzVinho rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#vinho16"/>
+        <produzVinho rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#vinho17"/>
+        <produzVinho rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#vinho18"/>
+        <produzVinho rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#vinho19"/>
+        <produzVinho rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#vinho20"/>
+        <produzVinho rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#vinho21"/>
+        <produzVinho rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#vinho22"/>
+        <descricaoProdutor>A Sogrape Vinhos é uma empresa de 
+cariz familiar e forte vocação internacional, 
+focada na produção de vinhos de 
+qualidade, na inovação e no 
+desenvolvimento de marcas portuguesas, 
+a partir de mais de 830 hectares de vinha 
+detidos em Portugal.</descricaoProdutor>
+        <localizacaoProdutor>Avintes</localizacaoProdutor>
+        <nomeProdutor>Sogrape</nomeProdutor>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#produtor05 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#produtor05">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#Produtor"/>
+        <produzEmRegiao rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#rvDouro"/>
+        <produzVinho rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#vinho23"/>
+        <produzVinho rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#vinho24"/>
+        <produzVinho rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#vinho25"/>
+        <descricaoProdutor>A Sobredos é uma pequena empresa 
+familiar criada em 2001 com o objectivo
+ de produzir vinhos do Douro, cuidar de
+ vinha própria ao longo de todo o seu ciclo 
+vegetativo, vindimar, vinificar e engarrafar, 
+tendo sempre no seu horizonte obter 
+pequenas produções de vinhos com 
+um grande potencial de qualidade</descricaoProdutor>
+        <localizacaoProdutor>Peso da Régua</localizacaoProdutor>
+        <nomeProdutor>Sobredos</nomeProdutor>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#produtor06 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#produtor06">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#Produtor"/>
+        <produzEmRegiao rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#rvDouro"/>
+        <produzVinho rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#vinho26"/>
+        <produzVinho rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#vinho27"/>
+        <descricaoProdutor>Hand crafted wines from the Douro Valley</descricaoProdutor>
+        <localizacaoProdutor>Favaios</localizacaoProdutor>
+        <nomeProdutor>Secret Spot Wines</nomeProdutor>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#produtor07 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#produtor07">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#Produtor"/>
+        <produzEmRegiao rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#rvBairrada"/>
+        <produzEmRegiao rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#rvDao"/>
+        <produzEmRegiao rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#rvDouro"/>
+        <produzEmRegiao rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#rvMinho"/>
+        <produzVinho rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#vinho28"/>
+        <produzVinho rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#vinho29"/>
+        <descricaoProdutor>A família Niepoort tem vindo a produzir 
+Vinho do Porto desde 1842. A primeira 
+propriedade no Douro foi comprada em 
+1987 e Dirk Niepoort deu início a uma 
+nova era na empresa com a criação do 
+primeiro Redoma tinto em 1991.</descricaoProdutor>
+        <localizacaoProdutor>Vila Nova de Gaia</localizacaoProdutor>
+        <nomeProdutor>Nieport</nomeProdutor>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#produtor08 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#produtor08">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#Produtor"/>
+        <produzEmRegiao rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#rvDouro"/>
+        <produzVinho rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#vinho30"/>
+        <descricaoProdutor>As Caves Transmontanas assentam a sua 
+notoriedade e particularidade no facto 
+de produzirem exclusivamente Espumantes 
+de sector Premium.
+A empresa iniciou a sua atividade na 
+década de 80, com um projeto ambicioso 
+de produção de Vinhos Espumantes de
+ qualidade superior na região do Douro,
+ produzidos pelo Método Clássico.</descricaoProdutor>
+        <localizacaoProdutor>Alijó</localizacaoProdutor>
+        <nomeProdutor>Caves Transmontanas</nomeProdutor>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#produtor09 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#produtor09">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#Produtor"/>
+        <produzEmRegiao rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#rvBairrada"/>
+        <produzVinho rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#vinho31"/>
+        <descricaoProdutor>As Caves São João são uma empresa familiar 
+independente. Fundada em 1920, prepara-se
+ para celebrar o seu 100 º aniversário. Esta 
+empresa esteve sempre aliada ao
+ vanguardismo e tradição. Em 1930 começou a
+ vender os vinhos espumantes e em 1959 
+começou a comercializar vinhos engarrafados 
+de qualidade, tanto a nível nacional como
+ internacional. Inspirando-se no passado, 
+reintroduziu as variedades universais na 
+Quinta do Poço do Lobo, que comprou em 1971.</descricaoProdutor>
+        <localizacaoProdutor>Anadia</localizacaoProdutor>
+        <nomeProdutor>Caves S. João</nomeProdutor>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#produtor10 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#produtor10">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#Produtor"/>
+        <produzEmRegiao rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#rvAlentejo"/>
+        <produzVinho rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#vinho32"/>
+        <produzVinho rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#vinho33"/>
+        <produzVinho rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#vinho34"/>
+        <descricaoProdutor>Situada no coração do Alentejo e integrada
+ na DOC Reguengos de Monsaraz.</descricaoProdutor>
+        <localizacaoProdutor>Reguengos de Monsaraz</localizacaoProdutor>
+        <nomeProdutor>Esporão</nomeProdutor>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#produtor11 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#produtor11">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#Produtor"/>
+        <produzEmRegiao rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#rvTrasOsMontes"/>
+        <produzVinho rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#vinho35"/>
+        <produzVinho rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#vinho36"/>
+        <descricaoProdutor>No concelho de Bragança, na aldeia de Parada 
+de Infanções, encontramos o único vinho produzido 
+na zona. As vinhas são centenárias, de pé franco, 
+com mais de 120 anos onde abundam cerca de 
+20 castas distintas.</descricaoProdutor>
+        <localizacaoProdutor>Bragança</localizacaoProdutor>
+        <nomeProdutor>Casa do Joa</nomeProdutor>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#rvAlentejo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#rvAlentejo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#Regiao"/>
+        <temProdutor rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#produtor04"/>
+        <temProdutor rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#produtor10"/>
+        <temVinho rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#vinho32"/>
+        <temVinho rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#vinho33"/>
+        <temVinho rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#vinho34"/>
+        <descricaoRegiao>O Alentejo é uma das maiores regiões
+ vitivinícolas de Portugal, onde a vista 
+se perde em extensas planícies que 
+apenas são interrompidas por pequenos
+ montes. Esta região quente e seca beneficiou 
+de inúmeros investimentos no sector vitivinícola.</descricaoRegiao>
+        <nomeRegiao>Alentejo</nomeRegiao>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#rvBairrada -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#rvBairrada">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#Regiao"/>
+        <temProdutor rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#produtor04"/>
+        <temProdutor rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#produtor07"/>
+        <temProdutor rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#produtor09"/>
+        <temVinho rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#vinho16"/>
+        <temVinho rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#vinho17"/>
+        <temVinho rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#vinho31"/>
+        <descricaoRegiao>A região da Bairrada é rica na produção de 
+vinhos brancos e tintos, elaborados a partir 
+de castas tradicionais, como a abundante 
+Baga, e outras importadas para solos portugueses, 
+como a internacional Cabernet Sauvignon.</descricaoRegiao>
+        <nomeRegiao>Bairrada</nomeRegiao>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#rvDao -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#rvDao">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#Regiao"/>
+        <temProdutor rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#produtor04"/>
+        <temProdutor rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#produtor07"/>
+        <temVinho rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#vinho18"/>
+        <temVinho rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#vinho19"/>
+        <descricaoRegiao>Dão</descricaoRegiao>
+        <descricaoRegiao>Nesta região as vinhas situam-se entre os 
+400 e os 700 metros de altitude e em solos
+onde predominam os pinheiros e as culturas 
+de milho. A região do Dão, rodeada de serras 
+que a protegem dos ventos, produz vinhos com 
+elevada capacidade de envelhecimento em garrafa.</descricaoRegiao>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#rvDouro -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#rvDouro">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#Regiao"/>
+        <temProdutor rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#produtor01"/>
+        <temProdutor rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#produtor02"/>
+        <temProdutor rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#produtor04"/>
+        <temProdutor rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#produtor05"/>
+        <temProdutor rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#produtor06"/>
+        <temProdutor rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#produtor07"/>
+        <temProdutor rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#produtor08"/>
+        <temVinho rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#vinho01"/>
+        <temVinho rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#vinho02"/>
+        <temVinho rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#vinho03"/>
+        <temVinho rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#vinho04"/>
+        <temVinho rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#vinho05"/>
+        <temVinho rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#vinho06"/>
+        <temVinho rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#vinho07"/>
+        <temVinho rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#vinho08"/>
+        <temVinho rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#vinho20"/>
+        <temVinho rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#vinho21"/>
+        <temVinho rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#vinho22"/>
+        <temVinho rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#vinho23"/>
+        <temVinho rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#vinho24"/>
+        <temVinho rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#vinho25"/>
+        <temVinho rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#vinho26"/>
+        <temVinho rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#vinho27"/>
+        <temVinho rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#vinho28"/>
+        <temVinho rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#vinho29"/>
+        <temVinho rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#vinho30"/>
+        <descricaoRegiao>Há um vinho que caracteriza imediatamente
+ a região do Douro, o vinho do Porto.</descricaoRegiao>
+        <nomeRegiao>Porto e Douro</nomeRegiao>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#rvMinho -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#rvMinho">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#Regiao"/>
+        <temProdutor rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#produtor03"/>
+        <temProdutor rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#produtor04"/>
+        <temProdutor rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#produtor07"/>
+        <temVinho rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#vinho09"/>
+        <temVinho rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#vinho10"/>
+        <temVinho rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#vinho11"/>
+        <temVinho rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#vinho12"/>
+        <temVinho rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#vinho13"/>
+        <temVinho rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#vinho14"/>
+        <temVinho rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#vinho15"/>
+        <descricaoRegiao>Também conhecida como a Região dos
+Vinhos Verdes. Região onde predominam 
+as tonalidades verdes da vegetação 
+exuberante típica de uma região com 
+bastante humidade.</descricaoRegiao>
+        <nomeRegiao>Minho</nomeRegiao>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#rvTrasOsMontes -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#rvTrasOsMontes">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#Regiao"/>
+        <temProdutor rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#produtor11"/>
+        <temVinho rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#vinho35"/>
+        <temVinho rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#vinho36"/>
+        <descricaoRegiao>No extremo Nordeste de Portugal, a norte da 
+região do Douro, existe a região vitivinícola de 
+Trás-os-Montes que se divide em três sub-regiões: 
+Chaves, Valpaços e Planalto Mirandês.</descricaoRegiao>
+        <nomeRegiao>Trás-os-Montes</nomeRegiao>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#vinho01 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#vinho01">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#Tinto"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#Vinho"/>
+        <provemDe rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#rvDouro"/>
+        <éProduzidoPor rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#produtor01"/>
+        <capacidade>75cl</capacidade>
+        <colheita rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2016</colheita>
+        <nomeVinho>Piano tinto</nomeVinho>
+        <temperatura>12-18ºC</temperatura>
+        <teorAlcoolico>14º</teorAlcoolico>
+        <tipoVinho>Tinto</tipoVinho>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#vinho02 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#vinho02">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#Rosé"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#Vinho"/>
+        <provemDe rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#rvDouro"/>
+        <éProduzidoPor rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#produtor01"/>
+        <capacidade>75cl</capacidade>
+        <descricaoVinho>De cor rosa alegre, aromaticamente é intenso com aromas 
+a frutos vermelhos como morango, framboesas e aromas 
+próprios das castas utilizadas, na boca é fresco e envolvente 
+com um final longo e elegante.</descricaoVinho>
+        <nomeVinho>Quintela Rosé</nomeVinho>
+        <temperatura>8-10ºC</temperatura>
+        <teorAlcoolico>12.9º</teorAlcoolico>
+        <tipoVinho>Rosé</tipoVinho>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#vinho03 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#vinho03">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#Branco"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#Vinho"/>
+        <provemDe rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#rvDouro"/>
+        <éProduzidoPor rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#produtor01"/>
+        <capacidade>75cl</capacidade>
+        <descricaoVinho>De cor jovem citrina, aromaticamente intenso a 
+frutas tropicais, próprio da casta Moscatel. Na 
+boca é fresco e vigoroso, com um final longo e persistente.</descricaoVinho>
+        <nomeVinho>Quintela Branco</nomeVinho>
+        <temperatura>8-10ºC</temperatura>
+        <teorAlcoolico>13º</teorAlcoolico>
+        <tipoVinho>Branco</tipoVinho>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#vinho04 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#vinho04">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#Tinto"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#Vinho"/>
+        <provemDe rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#rvDouro"/>
+        <éProduzidoPor rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#produtor01"/>
+        <capacidade>75cl</capacidade>
+        <descricaoVinho>De cor jovem, vermelho rubi, no nariz é intenso, 
+com predominância dos frutos vermelhos maduros 
+ainda muito frescos e intensos, na boca é sedoso 
+e envolvente com um final longo e persistente.</descricaoVinho>
+        <nomeVinho>Quintela Tinto</nomeVinho>
+        <temperatura>14-16ºC</temperatura>
+        <teorAlcoolico>13.2º</teorAlcoolico>
+        <tipoVinho>Tinto</tipoVinho>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#vinho05 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#vinho05">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#Tinto"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#Vinho"/>
+        <provemDe rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#rvDouro"/>
+        <éProduzidoPor rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#produtor01"/>
+        <capacidade>75cl</capacidade>
+        <descricaoVinho>Vinho de cor fechada, quase negra, com belos 
+violetas de aromas balsâmicos, e notas a frutos 
+negros muito densos, muito bem integrados
+ com o tabaco e a baunilha próprios do estágio 
+em madeira.</descricaoVinho>
+        <nomeVinho>Piano Grande Reserva</nomeVinho>
+        <temperatura>14-16ºC</temperatura>
+        <teorAlcoolico>14º</teorAlcoolico>
+        <tipoVinho>Tinto</tipoVinho>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#vinho06 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#vinho06">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#Branco"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#Vinho"/>
+        <provemDe rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#rvDouro"/>
+        <éProduzidoPor rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#produtor01"/>
+        <capacidade>75cl</capacidade>
+        <descricaoVinho>Vinho de aroma complexo onde notas de frutas 
+brancas se conjugam com o tropical da fruta 
+bem maduro.</descricaoVinho>
+        <nomeVinho>Piano Reserva Branco</nomeVinho>
+        <temperatura>10-12ºC</temperatura>
+        <teorAlcoolico>13.5º</teorAlcoolico>
+        <tipoVinho>Branco</tipoVinho>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#vinho07 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#vinho07">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#Generoso"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#Vinho"/>
+        <provemDe rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#rvDouro"/>
+        <éProduzidoPor rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#produtor02"/>
+        <capacidade>75cl</capacidade>
+        <colheita rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1951</colheita>
+        <nomeVinho>Barão de Vilar Colheita Porto</nomeVinho>
+        <temperatura>10-14º</temperatura>
+        <teorAlcoolico>21.5º</teorAlcoolico>
+        <tipoVinho>Generoso</tipoVinho>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#vinho08 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#vinho08">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#Tinto"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#Vinho"/>
+        <provemDe rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#rvDouro"/>
+        <éProduzidoPor rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#produtor02"/>
+        <descricaoVinho>Barão de Vilar Grande Reserva Tinto, de cor 
+vermelha escura, emana aromas de frutos 
+vermelhos maduros.</descricaoVinho>
+        <nomeVinho>Barão de Vilar Douro Tinto Grande Reserva</nomeVinho>
+        <temperatura>16-18ºC</temperatura>
+        <teorAlcoolico>14º</teorAlcoolico>
+        <tipoVinho>Tinto</tipoVinho>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#vinho09 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#vinho09">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#Espumante"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#Vinho"/>
+        <provemDe rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#rvMinho"/>
+        <éProduzidoPor rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#produtor03"/>
+        <capacidade>75cl</capacidade>
+        <descricaoVinho>Vinho espumante: Alvarinho espumante Bruto 2014</descricaoVinho>
+        <nomeVinho>Espumante Soalheiro Alvarinho</nomeVinho>
+        <temperatura>7-14ºC</temperatura>
+        <teorAlcoolico>12.5º</teorAlcoolico>
+        <tipoVinho>Espumante</tipoVinho>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#vinho10 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#vinho10">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#Branco"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#Vinho"/>
+        <provemDe rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#rvMinho"/>
+        <éProduzidoPor rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#produtor03"/>
+        <capacidade>1.5L</capacidade>
+        <colheita rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2016</colheita>
+        <nomeVinho>Soalheiro Alvarinho Reserva Branco</nomeVinho>
+        <temperatura>7-14ºC</temperatura>
+        <tipoVinho>Branco</tipoVinho>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#vinho11 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#vinho11">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#Branco"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#Vinho"/>
+        <provemDe rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#rvMinho"/>
+        <éProduzidoPor rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#produtor03"/>
+        <capacidade>75cl</capacidade>
+        <colheita rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2016</colheita>
+        <descricaoVinho>Premiado no concurso de vinhos de portugal 2018.</descricaoVinho>
+        <nomeVinho>Alvarinho Soalheiro Reserva Vinho Verde branco</nomeVinho>
+        <temperatura>7-14ºC</temperatura>
+        <teorAlcoolico>13º</teorAlcoolico>
+        <tipoVinho>Branco</tipoVinho>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#vinho12 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#vinho12">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#Branco"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#Vinho"/>
+        <provemDe rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#rvMinho"/>
+        <éProduzidoPor rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#produtor03"/>
+        <capacidade>75cl</capacidade>
+        <colheita rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2017</colheita>
+        <nomeVinho>Soalheiro Alvarinho</nomeVinho>
+        <temperatura>7-14ºC</temperatura>
+        <teorAlcoolico>12.5º</teorAlcoolico>
+        <tipoVinho>Branco</tipoVinho>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#vinho13 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#vinho13">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#Rosé"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#Vinho"/>
+        <provemDe rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#rvMinho"/>
+        <éProduzidoPor rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#produtor04"/>
+        <capacidade>75cl</capacidade>
+        <descricaoVinho>Vinho de cor rosada &quot;framboesa&quot;, com ligeiro 
+desprendimento de gás que realça os aromas 
+de frutos vermelhos (morangos) e de frutos 
+tropicais (banana).</descricaoVinho>
+        <nomeVinho>Gazela Aire</nomeVinho>
+        <temperatura>12-18ºC</temperatura>
+        <teorAlcoolico>9.5º</teorAlcoolico>
+        <tipoVinho>Rosé</tipoVinho>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#vinho14 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#vinho14">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#Branco"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#Vinho"/>
+        <provemDe rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#rvMinho"/>
+        <éProduzidoPor rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#produtor04"/>
+        <capacidade>75cl</capacidade>
+        <descricaoVinho>GAZELA tem uma cor amarelo citrino muito 
+leve, com um ligeiro desprendimento de gás,
+ que realça os aromas, sabores e frescura do
+ vinho. Aromático e cativante, GAZELA alia 
+às notas de citrinos e frutos tropicais uma 
+acidez viva e estimulante.</descricaoVinho>
+        <nomeVinho>Gazela Vinho Verde</nomeVinho>
+        <temperatura>7-14ºC</temperatura>
+        <teorAlcoolico>9º</teorAlcoolico>
+        <tipoVinho>Branco</tipoVinho>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#vinho15 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#vinho15">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#Tinto"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#Vinho"/>
+        <provemDe rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#rvMinho"/>
+        <éProduzidoPor rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#produtor04"/>
+        <capacidade>75cl</capacidade>
+        <nomeVinho>Gazela Mare</nomeVinho>
+        <temperatura>12-18ºC</temperatura>
+        <teorAlcoolico>11º</teorAlcoolico>
+        <tipoVinho>Tinto</tipoVinho>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#vinho16 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#vinho16">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#Tinto"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#Vinho"/>
+        <provemDe rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#rvBairrada"/>
+        <éProduzidoPor rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#produtor04"/>
+        <capacidade>75cl</capacidade>
+        <colheita rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1984</colheita>
+        <nomeVinho>Sogrape Bairrada tinto</nomeVinho>
+        <temperatura>12-18ºC</temperatura>
+        <teorAlcoolico>11.5º</teorAlcoolico>
+        <tipoVinho>Tinto</tipoVinho>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#vinho17 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#vinho17">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#Tinto"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#Vinho"/>
+        <provemDe rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#rvBairrada"/>
+        <éProduzidoPor rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#produtor04"/>
+        <capacidade>75cl</capacidade>
+        <colheita rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1985</colheita>
+        <nomeVinho>Terra Franca tinto</nomeVinho>
+        <temperatura>12-18ºC</temperatura>
+        <teorAlcoolico>12º</teorAlcoolico>
+        <tipoVinho>Tinto</tipoVinho>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#vinho18 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#vinho18">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#Branco"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#Vinho"/>
+        <provemDe rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#rvDao"/>
+        <éProduzidoPor rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#produtor04"/>
+        <capacidade>75cl</capacidade>
+        <colheita rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2016</colheita>
+        <nomeVinho>Grão Vasco Branco</nomeVinho>
+        <temperatura>7-14ºC</temperatura>
+        <teorAlcoolico>12.5º</teorAlcoolico>
+        <tipoVinho>Branco</tipoVinho>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#vinho19 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#vinho19">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#Tinto"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#Vinho"/>
+        <provemDe rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#rvDao"/>
+        <éProduzidoPor rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#produtor04"/>
+        <capacidade>75cl</capacidade>
+        <colheita rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2016</colheita>
+        <nomeVinho>Grão Vasco tinto</nomeVinho>
+        <temperatura>12-18ºC</temperatura>
+        <teorAlcoolico>13º</teorAlcoolico>
+        <tipoVinho>Tinto</tipoVinho>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#vinho20 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#vinho20">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#Rosé"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#Vinho"/>
+        <provemDe rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#rvDouro"/>
+        <éProduzidoPor rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#produtor04"/>
+        <capacidade>75cl</capacidade>
+        <descricaoVinho>Mateus Rosé é um vinho rosé de cor muito 
+apelativa e brilhante. Globalmente, é um 
+vinho fresco e sedutor com boa intensidade 
+aromática e toda a jovialidade dos vinhos 
+jovens. Na boca, é um vinho muito equilibrado 
+e tentador.</descricaoVinho>
+        <nomeVinho>Mateus Rosé</nomeVinho>
+        <temperatura>6-10ºC</temperatura>
+        <teorAlcoolico>11º</teorAlcoolico>
+        <tipoVinho>Rosé</tipoVinho>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#vinho21 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#vinho21">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#Branco"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#Vinho"/>
+        <provemDe rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#rvDouro"/>
+        <éProduzidoPor rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#produtor04"/>
+        <capacidade>75cl</capacidade>
+        <descricaoVinho>Mateus Branco é um vinho leve, fresco, jovem e 
+ligeiramente petillant de estilo consistente e extremamente
+versátil especialmente apropriado para momentos 
+agradáveis e relaxantes da vida.</descricaoVinho>
+        <nomeVinho>Mateus Branco</nomeVinho>
+        <temperatura>6-8ºC</temperatura>
+        <teorAlcoolico>10º</teorAlcoolico>
+        <tipoVinho>Branco</tipoVinho>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#vinho22 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#vinho22">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#Rosé"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#Vinho"/>
+        <provemDe rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#rvDouro"/>
+        <éProduzidoPor rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#produtor04"/>
+        <capacidade>75cl</capacidade>
+        <colheita rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2017</colheita>
+        <descricaoVinho>Vinho de cor rosé salmão caracterizado por 
+um aroma fresco (floral) e frutado com notas 
+de frutos vermelhos. À boca apresenta um 
+sabor ligeiramente doce muito bem equilibrado
+ com uma acidez muito
+fresca o que lhe confere uma grande suavidade e leveza</descricaoVinho>
+        <nomeVinho>Mateus Rosé Aragonez 2017</nomeVinho>
+        <temperatura>8-10ºC</temperatura>
+        <teorAlcoolico>10.5º</teorAlcoolico>
+        <tipoVinho>Rosé</tipoVinho>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#vinho23 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#vinho23">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#Tinto"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#Vinho"/>
+        <provemDe rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#rvDouro"/>
+        <éProduzidoPor rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#produtor05"/>
+        <capacidade>75cl</capacidade>
+        <colheita rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2013</colheita>
+        <nomeVinho>Aneto Reserva</nomeVinho>
+        <temperatura>12-18ºC</temperatura>
+        <teorAlcoolico>14º</teorAlcoolico>
+        <tipoVinho>Tinto</tipoVinho>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#vinho24 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#vinho24">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#Branco"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#Vinho"/>
+        <provemDe rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#rvDouro"/>
+        <éProduzidoPor rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#produtor05"/>
+        <capacidade>75cl</capacidade>
+        <colheita rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2016</colheita>
+        <nomeVinho>Aneto branco</nomeVinho>
+        <temperatura>7-14ºC</temperatura>
+        <teorAlcoolico>12.5º</teorAlcoolico>
+        <tipoVinho>Branco</tipoVinho>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#vinho25 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#vinho25">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#Colheita_Tardia"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#Vinho"/>
+        <provemDe rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#rvDouro"/>
+        <éProduzidoPor rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#produtor05"/>
+        <capacidade>50cl</capacidade>
+        <colheita rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2010</colheita>
+        <nomeVinho>Aneto S Special Edition</nomeVinho>
+        <temperatura>10-12ºC</temperatura>
+        <teorAlcoolico>11º</teorAlcoolico>
+        <tipoVinho>Colheita Tardia</tipoVinho>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#vinho26 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#vinho26">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#Generoso"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#Vinho"/>
+        <provemDe rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#rvDouro"/>
+        <éProduzidoPor rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#produtor06"/>
+        <capacidade>50cl</capacidade>
+        <nomeVinho>Moscatel Secret Spot 40 anos</nomeVinho>
+        <temperatura>12-16ºC</temperatura>
+        <tipoVinho>Generoso</tipoVinho>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#vinho27 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#vinho27">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#Colheita_Tardia"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#Vinho"/>
+        <provemDe rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#rvDouro"/>
+        <éProduzidoPor rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#produtor06"/>
+        <capacidade>50cl</capacidade>
+        <colheita rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2016</colheita>
+        <nomeVinho>Secret Spot Petit Manseng Late Harvest</nomeVinho>
+        <temperatura>10-12ºC</temperatura>
+        <teorAlcoolico>12º</teorAlcoolico>
+        <tipoVinho>Colheita Tardia</tipoVinho>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#vinho28 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#vinho28">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#Tinto"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#Vinho"/>
+        <provemDe rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#rvDouro"/>
+        <éProduzidoPor rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#produtor07"/>
+        <capacidade>15L</capacidade>
+        <colheita rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2014</colheita>
+        <nomeVinho>Nieport Diálogo</nomeVinho>
+        <temperatura>12-18ºC</temperatura>
+        <tipoVinho>Tinto</tipoVinho>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#vinho29 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#vinho29">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#Tinto"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#Vinho"/>
+        <provemDe rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#rvDouro"/>
+        <éProduzidoPor rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#produtor07"/>
+        <capacidade>15L</capacidade>
+        <colheita rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2015</colheita>
+        <nomeVinho>Nieport Diálogo</nomeVinho>
+        <temperatura>12-18ºC</temperatura>
+        <teorAlcoolico>13º</teorAlcoolico>
+        <tipoVinho>Tinto</tipoVinho>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#vinho30 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#vinho30">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#Espumante"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#Vinho"/>
+        <provemDe rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#rvDouro"/>
+        <éProduzidoPor rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#produtor08"/>
+        <capacidade>1.5L</capacidade>
+        <nomeVinho>Espumante Vertice Chardonnay</nomeVinho>
+        <temperatura>5-10ºC</temperatura>
+        <teorAlcoolico>12.5º</teorAlcoolico>
+        <tipoVinho>Espumante</tipoVinho>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#vinho31 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#vinho31">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#Espumante"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#Vinho"/>
+        <provemDe rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#rvBairrada"/>
+        <éProduzidoPor rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#produtor09"/>
+        <capacidade>1.5L</capacidade>
+        <colheita rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2013</colheita>
+        <nomeVinho>Espumante Quinta do Poço do Lobo Arinto</nomeVinho>
+        <temperatura>5-10ºC</temperatura>
+        <teorAlcoolico>13º</teorAlcoolico>
+        <tipoVinho>Espumante</tipoVinho>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#vinho32 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#vinho32">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#Rosé"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#Vinho"/>
+        <provemDe rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#rvAlentejo"/>
+        <éProduzidoPor rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#produtor10"/>
+        <colheita rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2016</colheita>
+        <descricaoVinho>Vinho produzido na região do Alentejo pela 
+Herdade do Esporão, através das castas Aragonês 
+e Syrah. De cor rosada muito viva, apresenta um 
+aroma intenso a amoras e cerejas. Na boca tem 
+um sabor frutado e equilibrado, com um paladar 
+persistente e fresco. Acompanha pratos ligeiramente 
+condimentados e saladas de camarão, sendo 
+também óptimo aperitivo.</descricaoVinho>
+        <nomeVinho>Esporão Vinha da Defesa</nomeVinho>
+        <temperatura>6-10ºC</temperatura>
+        <teorAlcoolico>12.5º</teorAlcoolico>
+        <tipoVinho>Rosé</tipoVinho>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#vinho33 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#vinho33">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#Tinto"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#Vinho"/>
+        <provemDe rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#rvAlentejo"/>
+        <éProduzidoPor rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#produtor10"/>
+        <capacidade>75cl</capacidade>
+        <colheita rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2015</colheita>
+        <nomeVinho>Esporão Colheita biológica</nomeVinho>
+        <temperatura>12-18ºC</temperatura>
+        <teorAlcoolico>14º</teorAlcoolico>
+        <tipoVinho>Tinto</tipoVinho>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#vinho34 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#vinho34">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#Tinto"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#Vinho"/>
+        <provemDe rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#rvAlentejo"/>
+        <éProduzidoPor rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#produtor10"/>
+        <capacidade>75cl</capacidade>
+        <colheita rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2011</colheita>
+        <nomeVinho>Esporão Torre</nomeVinho>
+        <temperatura>12-18ºC</temperatura>
+        <teorAlcoolico>14.5ºC</teorAlcoolico>
+        <tipoVinho>Tinto</tipoVinho>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#vinho35 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#vinho35">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#Tinto"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#Vinho"/>
+        <provemDe rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#rvTrasOsMontes"/>
+        <éProduzidoPor rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#produtor11"/>
+        <capacidade>75cl</capacidade>
+        <descricaoVinho>Vinho Transmontano, da região de Boticas, 
+produzido através do método tradicional de 
+estagiar durante 1 a 2 anos debaixo de terra. 
+O nome causa estranheza e até um certo espanto, 
+porém quando se conhece a fundo a rica história 
+do Vinho dos Mortos, com todos seus detalhes,
+ sabores e aromas, é impossível não querer vivenciar 
+e degustar esta iguaria.</descricaoVinho>
+        <nomeVinho>Vinho dos Mortos</nomeVinho>
+        <temperatura>12-18ºC</temperatura>
+        <teorAlcoolico>12º</teorAlcoolico>
+        <tipoVinho>Tinto</tipoVinho>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#vinho36 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#vinho36">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#Tinto"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#Vinho"/>
+        <provemDe rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#rvTrasOsMontes"/>
+        <éProduzidoPor rdf:resource="http://www.semanticweb.org/pc/ontologies/2018/5/vinhos#produtor11"/>
+        <capacidade>75cl</capacidade>
+        <colheita rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2014</colheita>
+        <nomeVinho>Alto do Joa tinto</nomeVinho>
+        <temperatura>12-18ºC</temperatura>
+        <teorAlcoolico>13.5º</teorAlcoolico>
+        <tipoVinho>Tinto</tipoVinho>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
